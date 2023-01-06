@@ -6,7 +6,7 @@ import os
 link = "http://suninjuly.github.io/file_input.html"
 driver = webdriver.Chrome()
 current_dir = os.path.abspath(os.path.dirname(__file__))
-file_path = os.path.join(current_dir, 'requirements.txt')
+file_path = os.path.join(current_dir, '../requirements.txt')
 
 try:
     driver.get(link)
