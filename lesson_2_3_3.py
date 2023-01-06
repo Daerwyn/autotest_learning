@@ -9,8 +9,10 @@ link = "http://suninjuly.github.io/explicit_wait2.html"
 driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 15)
 
+
 def calc(x):
     return str(math.log(abs(12 * math.sin(int(x)))))
+
 
 try:
     driver.get(link)
